@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "icons";
+	src: url("./source/fonts/icons.ttf") format("truetype");
+} 
+
+@font-face {
+	font-family: "gilroy";
+	src: url("./source/fonts/gilroy.ttf") format("truetype");
+} 
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.new-button {
+	position: relative;
+}
+
+.new-button:after {
+	content: "New";
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: "gilroy";
+	font-size: 13px;
+	font-weight: 900;
+	color: white;
+	letter-spacing: 1px;
+	animation: glow-new 1.6s ease-in-out infinite;
+	pointer-events: none;
+}
+
+@keyframes glow-new {
+	0%, 100% { text-shadow: 0 0 8px rgba(255, 255, 255, 0.5); }
+	50%      { text-shadow: 0 0 18px rgba(255, 255, 255, 1); }
+}

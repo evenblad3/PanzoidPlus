@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<body class="no-select">
+    <h1 class="logo">Panzoid+</h1>
+
+    <button id="theme-button"></button>
+
+    <button id="youtube-button"></button>
+    <button id="github-button"></button>
+
+    <input type="text" maxlength="32" class="search-field" placeholder="Search">
+
+    <div class="group-name">Shaders</div>
+    <div class="group-content">
+
+        <div class="sub-group-name">Stylization</div>
+        <div class="group-content">
+            <button type="button" id="ambientOcclusion" class="active-button">Ambient occlusion</button>
+            <button type="button" id="ascii" class="active-button">Ascii</button>
+            <button type="button" id="cartoon" class="active-button">Cartoon</button>
+            <button type="button" id="glitch" class="active-button">Glitch</button>
+            <button type="button" id="halftone" class="active-button">Halftone</button>
+            <button type="button" id="innerShadow" class="active-button">Inner shadow</button>
+            <button type="button" id="toon" class="active-button">Toon</button>
+        </div>
+
+        <div class="sub-group-name">Color</div>
+        <div class="group-content">
+            <button type="button" id="chromaticAberration" class="active-button">Chromatic aberration</button>
+            <button type="button" id="colorExpansion" class="active-button">Color expansion</button>
+            <button type="button" id="colorisma" class="active-button">Colorisma</button>
+            <button type="button" id="invertChannel" class="active-button">Invert channel</button>
+            <button type="button" id="leaveColor" class="active-button">Leave color</button>
+            <button type="button" id="tint" class="active-button">Tint</button>
+        </div>
+
+        <div class="sub-group-name">Image</div>
+        <div class="group-content">
+            <button type="button" id="bokehBlur" class="active-button">Bokeh Blur</button>
+            <button type="button" id="edgeBlur" class="active-button">Edge blur</button>
+            <button type="button" id="extrude" class="active-button">Extrude</button>
+            <button type="button" id="ghost" class="active-button">Ghost</button>
+            <button type="button" id="lightSweep" class="active-button">Light sweep</button>
+            <button type="button" id="motionBlur" class="active-button">Motion blur</button>
+            <button type="button" id="oilPaint" class="active-button">Oil Paint</button>
+            <button type="button" id="shine" class="active-button">Shine</button>
+            <button type="button" id="vignette" class="active-button">Vignette</button>
+        </div>
+
+        <div class="sub-group-name">Deformation</div>
+        <div class="group-content">
+            <button type="button" id="mirror" class="active-button">Mirror</button>
+            <button type="button" id="mirror1" class="active-button new-button">Mirror1</button>
+            <button type="button" id="stroke" class="active-button">Stroke</button>
+            <button type="button" id="turbulentDisplace" class="active-button">Turbulent displace</button>
+            <button type="button" id="turbidity" class="active-button">Turbidity</button>
+            <button type="button" id="venetianBlinds" class="active-button">Venetian blinds</button>
+            <button type="button" id="warpWaves" class="active-button">Warp waves</button>
+        </div>
+        
+    </div>
+
+    <div class="group-name">Presets</div>
+    <div class="group-content">
+
+        <div class="sub-group-name">Shakes</div>
+        <div class="group-content">
+            <button type="button" id="leftRightShake" class="active-button">Left right shake</button>
+            <button type="button" id="rainbowShake" class="active-button">Rainbow shake</button>
+            <button type="button" id="wiggleShake" class="active-button">Wiggle shake</button>
+            <button type="button" id="smallShake" class="active-button">Small shake</button>
+            <button type="button" id="zoomShake" class="active-button">Zoom shake</button>
+            <button type="button" id="sharpShake" class="active-button">Sharp shake</button>
+        </div>
+
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/group.js"></script>
+    <script src="js/link.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/clipboard.js"></script>
+
+    <head>
+        <link rel="stylesheet" href="layout.css">
+        <link id="dark-theme" rel="stylesheet" href="dark.css">
+        <link id="light-theme" rel="stylesheet" href="light.css">
+    </head>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    
+    "version_name": "Release 2.0",
+    "version": "2.0",
+
+    "name": "Panzoid+",
+    "short_name": "Pz+",
+    "description": "A browser extension for Clipmaker 3 that lets you enhance your projects by adding new visual effects !",
+
+    "author": "WzrterFX",
+
+    "icons": {
+        "128": "source/icons/128x128.png",
+
+        "48": "source/icons/48x48.png",
+        "32": "source/icons/32x32.png",
+        "16": "source/icons/16x16.png"
+    },
+
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open Panzoid+"
+    },
+
+    "permissions": [ "clipboardWrite" ]
+}
